@@ -1,6 +1,10 @@
-<div>
-    <add-task task-added="$ctrl.getTasks()"></add-task>
-</div>
-<div>
-    <task-list tasks="$ctrl.tasks" update-tasks="$ctrl.updateTasks()"></task-list>
+<div class="main">
+    <div class="addTask">
+        <h1>Task list</h1>
+        <add-task task-added="$ctrl.getTasks()"></add-task>
+    </div>
+
+    <div>
+        <task-list tasks="$ctrl.tasks" update-tasks="$ctrl.updateTasks()"></task-list>
+    </div>
 </div>
