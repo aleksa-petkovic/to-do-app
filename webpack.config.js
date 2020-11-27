@@ -20,7 +20,7 @@ module.exports = {
             },
         ],
     },
-    plugins: [new HtmlWebpackPlugin({template: './dist/index.html'}), new MiniCssExtractPlugin()],
+    plugins: [new HtmlWebpackPlugin({template: './app/index.html'}), new MiniCssExtractPlugin()],
     devServer: {
         port: 8000,
         contentBase: path.resolve(__dirname, 'dist'),
