@@ -1,5 +1,7 @@
 'use strict'
 
+import './checkbox.css'
+
 function checkboxCtrl() {
     this.change = function() {
         this.onChange({value: this.value})
