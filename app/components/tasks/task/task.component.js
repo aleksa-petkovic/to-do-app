@@ -1,5 +1,7 @@
 'use strict'
 
+import './task.css';
+
 function taskCtrl() {
     this.checked = function(value) {
         if(value == true) {

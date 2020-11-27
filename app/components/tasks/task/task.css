@@ -1,0 +1,25 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    height: 3.5%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.taskTitle {
+    overflow: hidden;
+    font-size: 1.5vh;
+    font-size: 1.5vw;
+    color: #f8f4ec;
+    padding-left: 3%;
+    flex-grow: 1;
+}
+
+.taskTitle:hover {
+    overflow: auto;
+}
+
+.taskCheckbox {
+    width: 5.5%;
+    flex-shrink: 0;
+}
