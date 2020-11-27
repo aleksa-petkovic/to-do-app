@@ -1,0 +1,14 @@
+.main {
+    width:50%;
+    margin:auto;
+}
+
+.addTask {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2vh;
+    font-size: 2vw;
+    color: #f8f4ec;
+}

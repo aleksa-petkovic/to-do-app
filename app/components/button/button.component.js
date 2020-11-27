@@ -1,5 +1,7 @@
 'use strict'
 
+import './button.css';
+
 function buttonCtrl() {
     this.click = function() {
         this.onClick();

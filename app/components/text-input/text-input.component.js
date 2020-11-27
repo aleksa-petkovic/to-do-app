@@ -1,5 +1,7 @@
 'use strict'
 
+import './text-input.css';
+
 function textInputCtrl() {
     this.change = function() {
         this.onChange({textInput: this.textInput});

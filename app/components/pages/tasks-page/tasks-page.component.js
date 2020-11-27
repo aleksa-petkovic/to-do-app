@@ -1,5 +1,7 @@
 'use strict'
 
+import './tasks-page.css';
+
 function tasksPageCtrl(getTasksService) {
     var self = this;
     self.tasks = [];

@@ -1,5 +1,7 @@
 'use strict'
 
+import './task-list.css';
+
 function taskListCtrl(deleteTaskService) {
     var self = this;
 

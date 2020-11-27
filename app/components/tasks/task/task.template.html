@@ -1,5 +1,8 @@
-<checkbox on-change="$ctrl.checked(value)"></checkbox>
-
-<label>
-    {{ $ctrl.task.title }}
-</label>
+<div class="task">
+    <div class="taskTitle">
+            {{ $ctrl.task.title }}
+    </div>
+    <div class="taskCheckbox">
+        <checkbox on-change="$ctrl.checked(value)"></checkbox>
+    </div>
+</div>
