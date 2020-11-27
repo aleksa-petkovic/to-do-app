@@ -1,0 +1,11 @@
+.input {
+    width: 60%;
+    height: 3.5%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    background-color: #2a2a2a;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #f8f4ec;
+}
