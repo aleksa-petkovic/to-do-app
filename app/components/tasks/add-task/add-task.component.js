@@ -9,6 +9,7 @@ function addTaskCtrl(postTaskService) {
     }
     self.success = function(response) {
         self.taskAdded();
+        self.taskTitle = null;
     }
     self.error = function(response) {
         alert("There was some error, cannot add new task")
