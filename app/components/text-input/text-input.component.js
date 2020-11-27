@@ -12,6 +12,7 @@ export const textInput = {
     template: require('./text-input.template.html'),
     controller: textInputCtrl,
     bindings: {
-        onChange: '&'
+        onChange: '&',
+        textInput: '<'
     }
 }
