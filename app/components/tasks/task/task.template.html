@@ -1,6 +1,9 @@
 <div class="task">
     <div class="taskTitle">
-            {{ $ctrl.task.title }}
+        {{ $ctrl.task.title }}
+        <a href="#!/edit/{{$ctrl.task.id}}" class="editButton">
+            <i class="material-icons">edit</i>
+        </a>
     </div>
     <div class="taskCheckbox">
         <checkbox on-change="$ctrl.checked(value)"></checkbox>
