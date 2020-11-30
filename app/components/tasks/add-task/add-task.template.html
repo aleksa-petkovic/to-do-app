@@ -1,2 +1,4 @@
-<text-input text-input="$ctrl.taskTitle" on-change="$ctrl.getInput(textInput)"></text-input>
+<text-input text-input="$ctrl.taskTitle" placeholder="$ctrl.titlePlaceholder" on-change="$ctrl.getTitle(textInput)"></text-input>
+<text-input text-input="$ctrl.taskDesc" placeholder="$ctrl.descPlaceholder" on-change="$ctrl.getDescription(textInput)"></text-input>
+<br>
 <button-comp text="$ctrl.buttonText" on-click="$ctrl.onClick()"></button-comp>

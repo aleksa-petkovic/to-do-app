@@ -13,6 +13,7 @@ export const textInput = {
     controller: textInputCtrl,
     bindings: {
         onChange: '&',
-        textInput: '<'
+        textInput: '<',
+        placeholder: '<'
     }
 }
