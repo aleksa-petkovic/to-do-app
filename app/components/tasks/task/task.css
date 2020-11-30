@@ -15,6 +15,17 @@
     flex-grow: 1;
 }
 
+.taskDescription {
+    overflow: hidden;
+    font-size: 1.0vh;
+    font-size: 1.0vw;
+    font-style: italic;
+    word-wrap: break-word;
+    max-width: 50ch;
+    color: #b6b6b6;
+    padding-left: 3%;
+}
+
 .taskTitle:hover {
     overflow: auto;
 }

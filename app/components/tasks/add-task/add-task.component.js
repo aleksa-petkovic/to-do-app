@@ -3,13 +3,19 @@
 function addTaskCtrl(postTaskService) {
     var self = this;
     self.buttonText = "Add task";
+    self.titlePlaceholder = "Title...";
+    self.descPlaceholder = "Description...";
 
-    self.getInput = function(textInput) {
+    self.getTitle = function(textInput) {
         self.taskTitle = textInput;
+    }
+    self.getDescription = function(textInput) {
+        self.taskDesc = textInput;
     }
     self.success = function(response) {
         self.taskAdded();
         self.taskTitle = null;
+        self.taskDesc = null;
     }
     self.error = function(response) {
         alert("There was some error, cannot add new task")
@@ -18,7 +24,7 @@ function addTaskCtrl(postTaskService) {
         if (self.taskTitle == "" || self.taskTitle == null) {
             alert('Task title cannot be empty')
         } else {
-            postTaskService.addTask(self.taskTitle).then(self.success, self.error);
+            postTaskService.addTask(self.taskTitle, self.taskDesc).then(self.success, self.error);
         }
     }
 }
