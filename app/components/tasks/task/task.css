@@ -34,3 +34,11 @@
     width: 5.5%;
     flex-shrink: 0;
 }
+
+.editButton {
+    color: #cecece;
+}
+
+.editButton:hover {
+    color: #f8f4ec;
+}

@@ -13,5 +13,6 @@ The purpose of this app is to create a list of tasks. App was developed using An
 - Enter task title in input field
 - Click on add task button to save your task
 - Your task is now shown on the list bellow
+- To edit task click on edit button next to task title
 - To delete task click on the checkbox to the right
 - Enjoy :)
