@@ -1,0 +1,9 @@
+<div class="main">
+    <div class="editTask">
+        <h1>Edit Task</h1>
+        <text-input text-input="$ctrl.taskTitle" placeholder="$ctrl.titlePlaceholder" on-change="$ctrl.getTitle(textInput)"></text-input>
+        <text-input text-input="$ctrl.taskDescription" placeholder="$ctrl.descPlaceholder" on-change="$ctrl.getDescription(textInput)"></text-input>
+        <br>
+        <button-comp text="$ctrl.buttonText" on-click="$ctrl.onClick()"></button-comp>
+    </div>
+</div>
